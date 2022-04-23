@@ -7,7 +7,8 @@ public class Runner {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ApplicationDetails obj =new ApplicationDetails();
-		obj.readApplication();
+		//obj.readApplication();
+		obj.saveData();
 	}
 		
 

@@ -21,7 +21,7 @@ public class GamesDAO {
 	}
 	
 
-	public static boolean saveGame(GamesDAO dto) {
+	public static boolean saveGame(GamesDTO dto) {
 		System.out.println("create jdbc connection using properties file ");
 
 		if (dto == null) {
@@ -69,5 +69,6 @@ public class GamesDAO {
 			}
 
 }
+		return false;
 	}
 }
